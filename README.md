@@ -8,3 +8,11 @@ Many classical methods (e.g. ARIMA) try to deal with Time Series data with varyi
 
 Recurrent Neural Networks (LSTMs are one type of those) are very good at processing sequences of data. They can "recall" patterns in the data that are very far into the past (or future). In this tutorial, you're going to learn how to use LSTMs to predict future Coronavirus cases based on real-world data.
 
+### Results sharing
+
+```python
+from leaderboard_toolkit import visualize
+visualize.leaderboard()
+
+```
+
